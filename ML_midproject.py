@@ -2,7 +2,7 @@ import math
 import random
 for i in range(20):
     velocity = random.uniform(0,100)
-    angle = math.radians(random.randint(1,91))
+    angle = math.radians(random.uniform(1,91))
     xi = velocity*math.cos(angle)
     yi = velocity*math.sin(angle)
     H = (velocity**2)*(math.sin(angle)**2)/(2*9.8)
